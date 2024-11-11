@@ -23,7 +23,8 @@ export default function Component() {
   const defaultMessages = {
     arrival: 'Salam sejahtera. Saya dari layanan pengiriman ShopeeFood. Pesanan makanan Anda sudah sampai.',
     delivery: 'Mohon maaf mengganggu, apakah pesanan akan kami serahkan langsung kepada Anda atau kami titipkan di tempat yang telah Anda tentukan?',
-    feedback: 'Terima kasih sudah memesan di ShopeeFood. Kami senang sekali jika Anda berkenan memberikan rating dan ulasan tentang pengalaman Anda.'
+    feedback: 'Terima kasih sudah memesan di ShopeeFood. Kami senang sekali jika Anda berkenan memberikan rating dan ulasan tentang pengalaman Anda.',
+    doubleorder: 'Mohon maaf, dikarenakan double order otomatis dari ShopeeFood, kemungkinan makanan datang sedikit lebih lama dari biasanya. Terimakasih'
   }
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -78,6 +79,7 @@ export default function Component() {
                   <SelectItem value="arrival">Pesanan Sampai</SelectItem>
                   <SelectItem value="delivery">Konfirmasi Pengiriman</SelectItem>
                   <SelectItem value="feedback">Permintaan Ulasan</SelectItem>
+                  <SelectItem value="doubleorder">Notifikasi Double Order</SelectItem>       
                   <SelectItem value="custom">Pesan Kustom</SelectItem>
                 </SelectContent>
               </Select>
