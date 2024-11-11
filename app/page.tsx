@@ -24,7 +24,7 @@ export default function Component() {
     arrival: 'Salam sejahtera. Saya dari layanan pengiriman ShopeeFood. Pesanan makanan Anda sudah sampai.',
     delivery: 'Mohon maaf mengganggu, apakah pesanan akan kami serahkan langsung kepada Anda atau kami titipkan di tempat yang telah Anda tentukan?',
     feedback: 'Terima kasih sudah memesan di ShopeeFood. Kami senang sekali jika Anda berkenan memberikan rating dan ulasan tentang pengalaman Anda.',
-    doubleorder: 'Mohon maaf, dikarenakan double order otomatis dari ShopeeFood, kemungkinan makanan datang sedikit lebih lama dari biasanya. Terimakasih'
+    doubleorder: 'Di karenakan double order otomatis dari ShopeeFood, kemungkinan makanan datang sedikit lebih lama dari biasanya.'
   }
 
   const handleSubmit = (e: React.FormEvent) => {
